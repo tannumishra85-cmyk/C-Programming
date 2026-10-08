@@ -1,10 +1,12 @@
 #include<stdio.h>
+ // declaration
 
+void name(char ch){
+    printf("Hello %c\n", ch);
+}
 int main(){
-    printf("Hello!\nTannu\n"); 
-
-    printf("\\n"); // prints \n on screen.
-    printf("\\r \n"); // prints \r on screen.
-    printf("\"Teacher's Day\"");// for printing double quotes >>  \"text\"
+    name('t');
+    name('v');
     return 0;
+    
 }
