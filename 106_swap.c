@@ -15,6 +15,8 @@ int main(){
     printf("\nIndexes that you want to swap between 0 to %d : ", n);
     scanf("%d%d", &ind1, &ind2);
 
+    
+
 
     swap(arr,n,ind1 , ind2);
     
@@ -35,7 +37,7 @@ void swap(int a[] , int n, int ind1, int ind2)
 
 int duplicate_founder(int a[], int n)
 {
-    int i, count = 0;
+    int i, j,count = 0;
     for(i = 0; i < n; i++)
     {
         for(j = 0; j < n; j++)

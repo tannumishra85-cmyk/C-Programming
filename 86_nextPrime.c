@@ -21,12 +21,8 @@ int nextPrime(int n)
             }
         }
         if(j == (n+i))
-        {
             break;
-        }
     }
     if(count == 1)
-        {
             return (n+i);
-        }
 }

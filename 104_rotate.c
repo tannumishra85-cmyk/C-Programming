@@ -5,8 +5,8 @@ void rotate(int arr[], int n, int j, char ch);
 int main(){
     int arr[] = {32, 29, 40, 12, 70};
     int n = sizeof(arr)/sizeof(arr[0]);
-    int j = 2;
-    char ch = 'R';
+    int j = 3;
+    char ch = 'L';
 
     rotate(arr, n, j, ch);
     
@@ -16,7 +16,7 @@ int main(){
 void rotate(int a[], int n, int j, char ch)
 {
     int i, temp;
-    for(i = 0; i <= 2; i++)
+    for(i = 0; i < n; i++)
     {
         if(ch == 'L')
         {
